@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "home",
+    "currentPage": "index",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -523,7 +523,7 @@
         }
       ]
     },
-    "home": {
+    "index": {
       "settings": {
         "main": true,
         "title": "",
