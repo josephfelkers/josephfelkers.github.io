@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Joseph Felkers updated",
+    "name": "JOSEPH FELKERS",
     "currentPage": "cvresume",
     "theme": {
       "name": "mobirise3",
@@ -21,121 +21,13 @@
         "isRtl": false
       }
     },
+    "favicon": "@PROJECT_PATH@/assets/images/monogram-128x128.png",
+    "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 16,
+    "uniqCompNum": 19,
     "versionPublish": "3.12.1"
   },
   "pages": {
-    "index.html": {
-      "settings": {
-        "main": true,
-        "title": "",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-0",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/headshot2-edited-2000x1179.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.2",
-            "overlayColor": "#000",
-            "contentAlign": "right",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "joseph FELKERS",
-          "text": "<br>student <span style=\"font-style: normal;\">|</span> writer <span style=\"font-style: normal;\">|</span> editor",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">about</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">cv//resume</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "right"
-            }
-          }
-        },
-        {
-          "_inherit": "social-buttons2",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-1",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#7e9b9f",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "<span style=\"font-weight: normal;\"><i>hey,</i></span><br>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/josephfelkers\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/joseph.felkers\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/jsp.h\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/joseph-felkers-827670101/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-2",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "width": 128
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "letter",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": 0,
-              "active": true
-            }
-          },
-          "text1": "<strong>Address</strong><br>6150 Statler Drive<br>Caledonia, MI<br>49316",
-          "text2": "<strong>Contacts</strong><br>\nEmail: josephfelkers@dogrschools.org<br>\nPhone: +1 (616)-706-5105<br><br>",
-          "text3": "&nbsp;"
-        }
-      ]
-    },
     "about": {
       "settings": {
         "title": "about",
@@ -212,7 +104,7 @@
           },
           "title": "Joseph Felkers is",
           "text": "a student, writer, and editor based in Grand Rapids, Michigan.<br><br>Currently a senior at Grand Rapids Catholic Central High School, his work is published in Juked, Rust + Moth, and SOFTBLOW, among others. &nbsp;He is a pushcart nominee, the winner of the Princeton University Poetry Prize for High School Students, and has been recognized by the Michigan Interscholastic Press Association for his work in journalism and editing. &nbsp;He currently is a genre editor for Polyphony H.S., and a poetry reader for The Adroit Journal.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CV / RESUME</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"cvresume\" data-toolbar=\"-mbrBtnMove\">CV / RESUME</a>"
         }
       ]
     },
@@ -362,6 +254,116 @@
               "font-size": "22px"
             }
           }
+        }
+      ]
+    },
+    "home": {
+      "settings": {
+        "main": true,
+        "title": "home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/headshot2-edited-2000x1179.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "joseph FELKERS",
+          "text": "<br>student <span style=\"font-style: normal;\">|</span> writer <span style=\"font-style: normal;\">|</span> editor",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"about\" data-toolbar=\"-mbrBtnMove\">about</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"cvresume\" data-toolbar=\"-mbrBtnMove\">cv//resume</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "right"
+            }
+          }
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#7e9b9f",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "<span style=\"font-weight: normal;\"><i>hey,</i></span><br>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/josephfelkers\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/joseph.felkers\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/jsp.h\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/joseph-felkers-827670101/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "letter",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<strong>Address</strong><br>6150 Statler Drive<br>Caledonia, MI<br>49316",
+          "text2": "<strong>Contacts</strong><br>\nEmail: josephfelkers@dogrschools.org<br>\nPhone: +1 (616)-706-5105<br><br>",
+          "text3": "&nbsp;"
         }
       ]
     }
