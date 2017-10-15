@@ -46,7 +46,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/headshot2%20edited-2000x1179.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/headshot2-edited-2000x1179.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
