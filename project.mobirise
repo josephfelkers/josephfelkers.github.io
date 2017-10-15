@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JOSEPH FELKERS",
-    "currentPage": "home",
+    "currentPage": "about",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -86,7 +86,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": false,
-            "showArrow": true,
+            "showArrow": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#1b746a",
             "bgColorRadio": true,
