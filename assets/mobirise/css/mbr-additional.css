@@ -411,6 +411,19 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#header1-j .mbr-section-title {
+  text-align: right;
+}
+#header1-j .mbr-section-title P {
+  text-align: right;
+}
+#header1-j .mbr-section-lead {
+  text-align: right;
+}
+#social-buttons4-1 .mbr-section-title,
+#social-buttons4-1 .btn-social {
+  color: #fff;
+}
 #msg-box8-5 .mbr-section-title,
 #msg-box8-5 p {
   color: #fff;
@@ -456,11 +469,4 @@ h6,
 }
 #content1-f DIV {
   font-size: 22px;
-}
-#header1-0 .mbr-section-title {
-  text-align: right;
-}
-#social-buttons4-1 .mbr-section-title,
-#social-buttons4-1 .btn-social {
-  color: #fff;
 }
