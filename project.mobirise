@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JOSEPH FELKERS",
-    "currentPage": "CV",
+    "currentPage": "ABOUT",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -43,6 +43,17 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "right"
+            },
+            ".mbr-section-title P": {
+              "text-align": "right"
+            },
+            ".mbr-section-lead": {
+              "text-align": "right"
+            }
+          },
           "_anchor": "header1-j",
           "_params": {
             "parallax": true,
@@ -65,18 +76,7 @@
           },
           "title": "<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p><br><p><span style=\"font-size: 4.39rem; line-height: 1.1;\">joseph FELKERS&nbsp;</span></p>",
           "text": "&nbsp; student / writer / editor",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ABOUT\" data-toolbar=\"-mbrBtnMove\">about</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"CV\" data-toolbar=\"-mbrBtnMove\">curriculum vitae</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "right"
-            },
-            ".mbr-section-title P": {
-              "text-align": "right"
-            },
-            ".mbr-section-lead": {
-              "text-align": "right"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://josephfelkers.com/about\" data-toolbar=\"-mbrBtnMove\">about</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"http://josephfelkers.com/cv\" data-toolbar=\"-mbrBtnMove\">curriculum vitae</a>"
         },
         {
           "_inherit": "social-buttons2",
@@ -220,7 +220,7 @@
           },
           "title": "Joseph Felkers is",
           "text": "a student, writer, and editor based in Grand Rapids, Michigan.<br><br>Currently a senior at Grand Rapids Catholic Central High School, his work is published in Juked, Rust + Moth, and SOFTBLOW, among others. &nbsp;He is a pushcart nominee, the winner of the Princeton University Poetry Prize for High School Students, and has been recognized by the Michigan Interscholastic Press Association for his work in journalism and editing. &nbsp;He currently is a genre editor for Polyphony H.S., and a poetry reader for The Adroit Journal.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"cvresume\" data-toolbar=\"-mbrBtnMove\">CV / RESUME</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://josephfelkers.com/cv\" data-toolbar=\"-mbrBtnMove\">CV / RESUME</a>"
         }
       ]
     },
