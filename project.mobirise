@@ -24,7 +24,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/monogram-128x128.png",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 20,
+    "uniqCompNum": 22,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -43,23 +43,12 @@
             "Theme"
           ],
           "_name": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "right"
-            },
-            ".mbr-section-title P": {
-              "text-align": "right"
-            },
-            ".mbr-section-lead": {
-              "text-align": "right"
-            }
-          },
-          "_anchor": "header1-j",
+          "_anchor": "header1-l",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/headshot2-edited-2000x1179.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -69,14 +58,14 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "right",
+            "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": true
           },
-          "title": "<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p><br><p><span style=\"font-size: 4.39rem; line-height: 1.1;\">joseph FELKERS&nbsp;</span></p>",
-          "text": "&nbsp; student / writer / editor",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ABOUT\" data-toolbar=\"-mbrBtnMove\">about</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"CV\" data-toolbar=\"-mbrBtnMove\">curriculum vitae</a>"
+          "title": "joseph FELKERS",
+          "text": "student / editor / writer",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_inherit": "social-buttons2",
