@@ -76,7 +76,7 @@
           },
           "title": "<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p><br><p><span style=\"font-size: 4.39rem; line-height: 1.1;\">joseph FELKERS&nbsp;</span></p>",
           "text": "&nbsp; student / writer / editor",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://josephfelkers.com/about\" data-toolbar=\"-mbrBtnMove\">about</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"http://josephfelkers.com/cvresume\" data-toolbar=\"-mbrBtnMove\">curriculum vitae</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"josephfelkers.com/about\" data-toolbar=\"-mbrBtnMove\">about</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"josephfelkers.com/cvresume\" data-toolbar=\"-mbrBtnMove\">curriculum vitae</a>"
         },
         {
           "_inherit": "social-buttons2",
