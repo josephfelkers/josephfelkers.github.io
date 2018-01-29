@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "JOSEPH FELKERS",
-    "currentPage": "home",
+    "name": "journalism",
+    "currentPage": "journalism.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -21,17 +21,15 @@
         "isRtl": false
       }
     },
-    "favicon": "@PROJECT_PATH@/assets/images/monogram-128x128.png",
-    "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 22,
+    "uniqCompNum": 6,
     "versionPublish": "3.12.1"
   },
   "pages": {
-    "home": {
+    "journalism.html": {
       "settings": {
         "main": true,
-        "title": "home",
+        "title": "",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -39,326 +37,197 @@
       },
       "components": [
         {
+          "_inherit": "menu",
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-l",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "joseph FELKERS",
-          "text": "student / editor / writer",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
-        },
-        {
-          "_inherit": "social-buttons2",
           "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-1",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#7e9b9f",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "<span style=\"font-weight: normal;\"><i>hey,</i></span><br>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/josephfelkers\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/joseph.felkers\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/jsp.h\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/joseph-felkers-827670101/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-2",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
-              "width": 128
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "class": "mbr-iconfont mbr-iconfont-menu",
               "linkInNewWindow": false,
-              "name": "letter",
-              "family": "MobiriseIcons",
-              "link": "",
+              "name": "newspaper",
+              "family": "et-line",
+              "link": "https://josephfelkers.com/",
               "size": 0,
+              "newWindow": false,
               "active": true
             }
           },
-          "text1": "<strong>Address</strong><br>6150 Statler Drive<br>Caledonia, MI<br>49316",
-          "text2": "<strong>Contacts</strong><br>\nEmail: josephfelkers@dogrschools.org<br>\nPhone: +1 (616)-706-5105<br><br>",
-          "text3": "&nbsp;"
-        }
-      ]
-    },
-    "ABOUT": {
-      "settings": {
-        "title": "about",
-        "meta_descr": "About"
-      },
-      "components": [
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOSEPH FELKERS | mipa student journalist staff application | multiplatform</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://josephfelkers.com/cvresume\">full resume<br></a></li>"
+        },
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-5",
+          "_name": "header2",
+          "_anchor": "header2-4",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "imageSize": "55",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/header-2000x1758.jpg",
-            "bgColor": "#F2F2F2",
+            "bgImage": "@PROJECT_PATH@/assets/images/screen-shot-2018-01-29-at-4-2000x726.png",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000",
+            "inverse": false,
             "showTitle": true,
             "showText": true,
-            "showButton": false
+            "showButtons": true,
+            "showArrow": true
           },
-          "title": "ABOUT",
-          "text": "<p></p><p><br></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff"
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/headshot2-edited-1400x825.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
-            ".mbr-section-lead": {
-              "color": "#c0a375"
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
             }
           },
+          "title": "Joseph Felkers",
+          "text": "Student journalist from Catholic Central High School&nbsp;<br>in Grand Rapids, Michigan",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"\" data-toolbar=\"-mbrBtnMove\">scroll for more</a>"
+        },
+        {
           "_tags": [
             "Theme"
           ],
-          "_name": "header5",
-          "_anchor": "header5-6",
+          "_name": "header2",
+          "_anchor": "header2-5",
           "_params": {
+            "imageSize": "52",
             "parallax": true,
             "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#1b746a",
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "Joseph Felkers is",
-          "text": "a student, writer, and editor based in Grand Rapids, Michigan.<br><br>Currently a senior at Grand Rapids Catholic Central High School, his work is published in Juked, Rust + Moth, and SOFTBLOW, among others. &nbsp;He is a pushcart nominee, the winner of the Princeton University Poetry Prize for High School Students, and has been recognized by the Michigan Interscholastic Press Association for his work in journalism and editing. &nbsp;He currently is a genre editor for Polyphony H.S., and a poetry reader for The Adroit Journal.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://josephfelkers.com/cv\" data-toolbar=\"-mbrBtnMove\">CV / RESUME</a>"
-        }
-      ]
-    },
-    "CV": {
-      "settings": {
-        "title": "cv / resume",
-        "meta_descr": "CV"
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-7",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x3016.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": true,
             "showTitle": true,
             "showText": true,
-            "showButton": false
+            "showButtons": false,
+            "showArrow": true
           },
-          "title": "<span style=\"font-size: 3rem; line-height: 1.1;\"><br></span><span style=\"font-size: 3rem; line-height: 1.1;\">CURRICULUM VITAE</span><br>",
-          "text": "<p>&nbsp;</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "DIV": {
-              "color": "#9c9a9a",
-              "font-size": "22px"
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img-1400x932.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
-            "H1": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "content1-a",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<h1><br></h1><h1>EDUCATION</h1><div><span style=\"line-height: 1.5;\"><b>2014-PRESENT | grand rapids catholic central high school | class of 2018</b></span><br></div><div><span style=\"line-height: 1.5;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gpa: 4.558 (W) 4.00 (UW) | rank: 1/164</span></div><div><span style=\"line-height: 1.5;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;valedictorian candidate</span></div><div><span style=\"line-height: 1.5;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ap capstone diploma candidate</span></div><div><span style=\"line-height: 1.5;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;national honors society (elected officer) | cum laude</span></div><div><span style=\"line-height: 1.5;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ap scholar award w/ distinction | harvard book award</span></div><div><span style=\"line-height: 1.5;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div><div><br></div>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "color": "#9c9a9a",
-              "text-align": "right",
-              "font-size": "22px"
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             },
-            "H1": {
-              "color": "#ffffff",
-              "text-align": "right"
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
             }
           },
-          "_anchor": "content1-c",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#000000"
-          },
-          "text": "<h1><br></h1><h1>PUBLICATIONS, AWARDS, </h1><h1>NOMINATIONS</h1><p>(ABRIDGED) (ONLINE TEXTS LINKED)</p><p><br></p><p>I Thought C.V. Stood For Crystal Violet / micro-chapbook / Bitterzoet Press / forthcoming</p><p>idyll for someone i haven't met yet / poem / Juked Magazine / forthcoming</p><p>4 POEMS / <a href=\"http://www.softblow.org/josephfelkers.html\">poems</a> / SOFTBLOW / winter 2017</p><p>GUNSAFE / reprint / Polyphony H.S. / 2017</p><p>UP NORTH // UNDER THE BRIDGE / <a href=\"http://www.themackinacmagazine.com/joseph-felkers.html\">poem</a>&nbsp;/ The Mackniac / winter 2017</p><p>GUNSAFE / <a href=\"https://rustandmoth.com/artists/joseph-felkers/\">poem</a> / Rust + Moth / winter 2017</p><p>TAROT / poem / Emerge Literary Journal / winter 2017</p><p>SABBATH and two others / <a href=\"https://superstitionreview.asu.edu/issue18/poetry/josephfelkers\">poems</a> / Superstition Review / fall 2016</p><p>Petoskey Stone / <a href=\"http://www.decompmagazine.com/petoskeystone.htm\">poem</a> / decomP magazinE / fall 2016</p><p><br></p><p><br></p><p>Princeton University, 2017 (selected by Tracy K. Smith) / poetry contest / first place</p><p>Scholastic Art &amp; Writing, 2017 (regional) / poetry (4) and journalism (1) / 5 gold keys</p><p><br></p><p>Pushcart Prize Nomination, 2017 / via Emerge Literary Journal / TAROT</p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "color": "#9c9a9a",
-              "font-size": "22px"
-            }
-          },
-          "_anchor": "content1-d",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><br></p><h1>EDITORIAL EXPERIENCE&nbsp;</h1><p><br></p><p><b>2016-PRESENT | Polyphony H.S. (Latin School of Chicago) | genre editor</b></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;responsible for providing thoughtful, thorough commentary to &nbsp; &nbsp; &nbsp;&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;submitting high school authors in three genres: poetry, prose, and&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;non-fiction.  makes publication decisions, edits comments of lower level</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;editors, and formats rejection responses.</p><p><b><br></b></p><p><b>2016-PRESENT | The Adroit Journal (University of Pennsylvania) | poetry reader</b></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;provides internal staff comments on poetry submissions to highly</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;selective, internet based journal, culminating with a final yes/no/maybe&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;vote.  must meet quota of voting on a set percent of submitted work in&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;assigned genre.</p><p><br></p><p><b>2015-PRESENT | The Blue &amp; White (Catholic Central High School) | editor-in-chief</b></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; editor-in-cheif of monthly school newspaper.  writes a minimum of one &nbsp;&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;journalistic prose piece for each issue, uses digital software to edit&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; photographs, create graphics, and lay out pages. responsible for editing&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the writing and digital layout of all staff members, organizing each&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; issue’s storyboard, and directing section editors. as co-EIC in 2017, the </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paper recieved both the highest state ranking and national recognition</p><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for the first time in school history.&nbsp;</p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "H1": {
-              "color": "#ffffff",
-              "text-align": "right"
-            },
-            "P": {
-              "text-align": "right",
-              "color": "#9c9a9a",
-              "font-size": "22px"
-            }
-          },
-          "_anchor": "content1-e",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#000000"
-          },
-          "text": "<h1><br></h1><h1>EMPLOYMENT</h1><p><br></p><p><b>2016-PRESENT | Pinkie's Ice Cream &amp; Desserts | staff member</b></p><p>works as a part time employee of mid-size, local business. responsible for serving</p><p>ice cream, checking out customers, and maintaining store integrity &amp; cleanliness.</p><p>worked closely with management to coordinate large, weekly catering orders of</p><p>over 500 measured servings.</p><p><br></p><p><br></p><p><b>2015 | The Ice Cream Express | counter attendant, employee trainer</b></p><p>previous employee&nbsp;<span style=\"line-height: 1.5;\">of ice cream shop and restaurant. trained and proficient&nbsp;</span><span style=\"line-height: 1.5;\">in both </span></p><p><span style=\"line-height: 1.5;\">kitchen&nbsp;</span><span style=\"line-height: 1.5;\">and freezer settings. also trained in customer service skills. Responsible for </span></p><p><span style=\"line-height: 1.5;\">overseeing lower employees, and training said hires in food service,&nbsp;</span><span style=\"line-height: 1.5;\">making items,</span></p><p><span style=\"line-height: 1.5;\"> and&nbsp;</span><span style=\"line-height: 1.5;\">counter operation. &nbsp;developed employee training literature, and redesigned</span></p><p><span style=\"line-height: 1.5;\">new menus for management.</span></p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "DIV": {
-              "font-size": "22px"
-            }
-          },
-          "_anchor": "content1-f",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<h1><br></h1><h1>INVOLVEMENT //&nbsp;</h1><h1>EXTRA-CURRICULAR</h1><div><br></div><div>2016-PRESENT | ad-hoc member to the executive comittee</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;voting seat on grand rapids community foundation's  youth grant&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comittee</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;responsible for allocating over $40,000 in grant funding to applicants&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;requesting a total of over $250,000</div><div><br></div><div>2016-PRESENT | volunteer-intern</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; consistent volunteer-intern at mercy health saint mary's hospital in &nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; grand rapids&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; weekly member of wayfinding and greeting team</div><div><br></div><div>2015-PRESENT | journalism</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;see aforementioned</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;excellence in journalism award, 2016 (via: catholic central hs</div><div><br></div><div>2015-PRESENT | policy debate</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;school's N (negative) 2 varsity policy debater</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;number one speaker in metro (grand rapids) league, 2016</div><div><br></div><div>2015-PRESENT | model united nations&nbsp;</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;delegate for school's model united nations team, competing approx. &nbsp; &nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;twice annually</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;current head delegate for school.</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;outstanding delegate award, 2017 (via: michigan state university)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;commended delegate award, 2016 (via: university of michigan)</div><div><br></div><div>2014-PRESENT | varsity swim &amp; dive</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;varsity member of school's swim team since freshman year</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;member of state ream, 2016, 2017</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;team captain, 2017, 2018</div><div><br></div><div>2014-PRESENT | principal's advisory comittee</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;member of school ceo's student advisory panel</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;assists in educational policymaking and in ushering in current capital&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;campaign</div>"
+          "title": "BIOGRAPHY",
+          "text": "Joseph Felkers is a senior at Catholic Central High School in Grand Rapids, Michigan.  At CC, he acts as the Editor-in-Chief of their student run newspaper, the <i>Blue and White</i>.  Outside of journalism, he remains involved in the humanities as the captian of the debate team, delegate in the Model United Nations team, and as a nationally recognized poet.<br><br>(LEFT) CHCEKING IT TWICE: Checking the printed copies of their January issue, co-Editors-in-Chief (L-R) Joseph Felkers ('18) and Joslyn Fox ('17) ensure that there are no print errors before distribution. After a previous error that resulted in a reprint, the <i>Blue and White </i>staff carefully proofreads digital galleys before sending them to print.&nbsp;<br><br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         }
       ]
     }

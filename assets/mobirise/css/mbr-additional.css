@@ -411,53 +411,64 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
-#social-buttons4-1 .mbr-section-title,
-#social-buttons4-1 .btn-social {
-  color: #fff;
+#ext_menu-3 .hide-buttons .nav-btn {
+  display: none !important;
 }
-#msg-box8-5 .mbr-section-title,
-#msg-box8-5 p {
-  color: #fff;
-}
-#header5-6 .mbr-section-title {
+#ext_menu-3 .navbar-caption {
   color: #ffffff;
 }
-#header5-6 .mbr-section-lead {
+#ext_menu-3 .navbar-toggler {
+  color: #ffffff;
+}
+#ext_menu-3 .close-icon::before,
+#ext_menu-3 .close-icon::after {
+  background-color: #ffffff;
+}
+#ext_menu-3 .link,
+#ext_menu-3 .dropdown-item {
+  color: #ffffff;
+}
+#ext_menu-3 .link {
+  font-size: 0.75rem;
+}
+#ext_menu-3 .dropdown-item,
+#ext_menu-3 .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#ext_menu-3 .link:hover,
+#ext_menu-3 .dropdown-item:hover,
+#ext_menu-3 .link:focus,
+#ext_menu-3 .dropdown-item:focus {
   color: #c0a375;
 }
-#msg-box8-7 .mbr-section-title,
-#msg-box8-7 p {
-  color: #fff;
+#ext_menu-3 .link[aria-expanded="true"],
+#ext_menu-3 .dropdown-menu {
+  background: #0e0e0e;
 }
-#content1-a DIV {
-  color: #9c9a9a;
-  font-size: 22px;
+#ext_menu-3 .nav-dropdown-sm .link:focus,
+#ext_menu-3 .nav-dropdown-sm .link:hover,
+#ext_menu-3 .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-3 .nav-dropdown-sm .dropdown-item:hover {
+  background: #202020!important;
 }
-#content1-a H1 {
-  color: #000000;
+#ext_menu-3 .navbar,
+#ext_menu-3 .nav-dropdown-sm,
+#ext_menu-3 .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-3 .nav-dropdown-sm .dropdown-menu {
+  background: #282828;
 }
-#content1-c P {
-  color: #9c9a9a;
-  text-align: right;
-  font-size: 22px;
-}
-#content1-c H1 {
+#ext_menu-3 .bg-color.transparent .link {
   color: #ffffff;
-  text-align: right;
+  transition: none;
 }
-#content1-d P {
-  color: #9c9a9a;
-  font-size: 22px;
+#ext_menu-3 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
 }
-#content1-e H1 {
-  color: #ffffff;
-  text-align: right;
+#ext_menu-3 .bg-color.transparent.opened .link:hover,
+#ext_menu-3 .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
 }
-#content1-e P {
-  text-align: right;
-  color: #9c9a9a;
-  font-size: 22px;
-}
-#content1-f DIV {
-  font-size: 22px;
+#ext_menu-3 .link[aria-expanded="true"],
+#ext_menu-3 .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
 }
