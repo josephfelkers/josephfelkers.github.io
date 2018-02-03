@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 18,
+    "uniqCompNum": 19,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -134,10 +134,10 @@
           "_params": {
             "imageSize": "55",
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screen-shot-2018-01-29-at-4-2000x726.png",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/screen%20shot%202018-01-29%20at%204-2000x726.png",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -255,7 +255,7 @@
           ],
           "_name": "slider",
           "_params": {
-            "autoplay": true,
+            "autoplay": false,
             "paddingTop": "2",
             "paddingBottom": 3,
             "timeout": 5,
@@ -277,33 +277,143 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/swim-2000x2356.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
-                "overlayOpacity": "0",
-                "overlayColor": "#efefef",
-                "contentAlign": "left",
+                "contentAlign": "right",
                 "showTitle": false,
-                "title": "VIDEO SLIDE",
+                "title": "IMAGE SLIDE",
                 "showText": false,
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
                 "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hfmd-2000x1367.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "right",
-                "showTitle": true,
+                "showTitle": false,
                 "title": "IMAGE SLIDE",
-                "showText": true,
+                "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-03-at-9-2000x1234.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-03-at-9-2000x1587.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-03-at-9-2000x2224.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-03-at-9-2000x834.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-03-at-9-2000x1187.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-03-at-9-2000x1113.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-03-at-9-2000x1108.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-03-at-10-2000x3020.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
@@ -313,6 +423,19 @@
           },
           "_anchor": "slider-h",
           "articleLayout": false
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-i",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p><span style=\"font-style: normal;\"><b>Senior interns at Microsoft through Girls Who Code organization, October 2015, writing (feature) |</b></span>&nbsp;This feature piece was the first story I wrote on staff at the Blue and White, as a sophomore. &nbsp;Learning the conventions of journalistic writing, as well as interview ettiquite, was imperative in this assignment, and was a skill I've kept with me my three years on staff.</p><p><b style=\"font-style: normal;\">Swimmers make CC history as state title winners, November 2015, writing (sports) | </b>Being at the bottom of the journalism pecking order, I was assigned the Girls Swim story. &nbsp;It was the one nobody wanted. &nbsp;However, after the girls won a state title, everyone on staff wished they had picked this story. It went on to win a Gold Key at the Scholastic Art &amp; Writing of West &amp; Central Michigan compeititon.</p><p><span style=\"font-weight: bold; font-style: normal;\">Hand Foot Mouth Disease infects school community, October 2016, writing (news) | </span>In the face of a schoolwide health crisis, we pushed this story <span style=\"font-style: normal;\">just</span> in time for print. Having to write it in such a quick period of time was difficult, but rewarding and exciting. &nbsp;I remember having to write it over the course of one day, hours before we had to send files to the printer. &nbsp;This piece went on to recieve a silver key from the Scholastic Art &amp; Writing awards last year.</p><p><span style=\"font-weight: bold; font-style: normal;\">Sports teams create electric atmosphere, November 2016, writing (editorial ) | </span>Taking my role as co-EIC junior year, this was one of the first editorials I wrote. After an exhilirating fall sports season, writing this editorial was easy and fun to assemble, mirroring closely the many praising sports stories included in the issue.</p><p><b style=\"font-style: normal;\">Math classes help teacher celebrate wedding, January 2017, writing (feature) | </b>During the storyboarding for this issue, we were hard pressed for story ideas. &nbsp;This assignment was a stretch, initially, but ended up becoming a story to be proud of. &nbsp;This story was the 3rd place winner for a Human Interest feature for the MIPA individual awards last year.</p><p><b style=\"font-style: normal;\">Relatable preist joins community as chaplain, February 2017, writing (feature) | </b>After hearing mass with our new school chaplain, our staff decided we had to feature him. &nbsp;Being so young and kind, we knew a personality feature on him would be engaging for students. &nbsp;It was unusual, interviewing a preist, but it ended up being a blast to interview and write for the piece.</p><p><span style=\"font-style: normal;\"><b>Greif, inspiration can go hand-in-hand, March 2017, writing (editorial) | </b></span>This will always be the hardest piece of writing I've ever been assigned as a journalist. &nbsp;Following the loss of a fellow student, our staff wanted to honor Jared Pilczuk in the next issue. &nbsp;On a different page, we ran a breif obituary, and followed up further in our editorial for the month.</p><p><span style=\"font-style: normal;\"><b>Enjoy popsicle-filled kind of summer, May 2017, writing (editorial)</b></span> | Being the first issue as sole-EIC after my partner's graduation, I wanted to write a more fun, memorable editorial that students would remember heading into summer break. &nbsp;We wanted to recognize the hard work students put in during the past year, and encourage them to relax over break. &nbsp;I think (hope) it was successful.</p><p><span style=\"font-style: normal;\"><b>Parked cars hide on-coming traffic..., October 2017, writing (opinion) |</b></span> Following a jarring car accident, I felt obligated to write an opinion piece on the parking and driving situation at school. I believe this is one of the only opinion pieces I've written with a tangible result, seeing drastically less recklessness in the parking lot after school, following the publication of this piece.&nbsp;</p><p><span style=\"font-style: normal;\"><b>We didn't start the fire..., October 2017, writing (editorial) |</b></span> After the addition of a yearned after cartoonist to our staff, I wanted to write an editorial that would put his cartooning skills to use. &nbsp;It was one of my first humorous pieces, and the cartoon ties it all together. Poking fun at the weather isn't hard to do (but complaining about a lack of air conditioning raised some eyebrows by administration).</p><p><span style=\"font-style: normal;\"><b>Teens work evenings, weekends..., November 2017, writing (feature) |</b></span> After hearing about a fellow student who works an impressively demanding job, I wanted to feature her, and other students who manage to work during the school year. &nbsp;It's important to recognize not only the students participating in school-related activities, but those who have to take on much more mature roles to support their families. &nbsp;This piece went on to recieve an Honorable Mention by the Scholastic Art &amp; Writing awards this year.</p><p><br></p><p><span style=\"font-style: normal;\"><b>Other writing awards for pieces not included in this portfolio:&nbsp;</b></span></p><p>3rd place, News Writing (Editorial) MIPA individual awards, 2017</p><p>2 Honorable Mentions, Scholastic Art &amp; Writing of West &amp; Central Michigan, 2017</p><p>1 additional Silver Key, Scholastic Art &amp; Writing of West and Central Michigan, 2017</p><p>1 additional Honorable Mention, Scholastic Art &amp; Writing of West &amp; Central Michigan, 2018</p><p><br></p><p><br></p></blockquote>"
         }
       ]
     },
