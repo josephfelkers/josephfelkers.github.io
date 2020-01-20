@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700);
-@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
 
@@ -22,14 +23,14 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -1461,10 +1462,10 @@ body {
 .cid-rqtqPes8JI {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/mbr-1920x1285.jpg");
+  background-image: url("../../../assets/images/vinicius-amano-ohpdgstnfgs-unsplash-4-2000x3000.jpg");
 }
 .cid-rqtqPes8JI H2 {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-rqtqPZG9AX {
   padding-top: 60px;
@@ -1503,28 +1504,23 @@ body {
 .cid-rqtqR1iLlT H2 {
   text-align: left;
 }
-.cid-rqtqRHoLgE {
+.cid-rqtqSjHfJj {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #232323;
 }
-.cid-rqtqRHoLgE .mbr-section-subtitle {
-  color: #ffffff;
-  text-align: right;
-}
-.cid-rqtqRHoLgE H2 {
-  color: #ffffff;
-  text-align: right;
-}
-.cid-rqtqSjHfJj {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
 .cid-rqtqSjHfJj .mbr-section-subtitle {
-  color: #767676;
-  text-align: left;
+  color: #ffffff;
+  text-align: right;
 }
 .cid-rqtqSjHfJj H2 {
-  text-align: left;
+  text-align: right;
+  color: #ffffff;
+}
+.cid-rqtqSjHfJj .mbr-section-subtitle DIV {
+  text-align: right;
+  color: #ffffff;
+}
+.cid-rqtqSjHfJj .mbr-section-subtitle B {
+  color: #ffffff;
 }
